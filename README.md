@@ -18,3 +18,6 @@ maven坑有点多..记录一下吧
             <url>https://mirrors.sjtug.sjtu.edu.cn/maven-central/</url>
             <mirrorOf>central</mirrorOf>
         </mirror>
+    
+ <scope>test</scope> 防止冲突,更改作用域
+ IDEA设置,VM option 读取本地仓库-DarchetypeCatalog=internal    
