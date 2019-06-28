@@ -2,6 +2,9 @@
   <dictionary name="wind">
     <words>
       <w>aservlet</w>
+      <w>darchetype</w>
+      <w>mairadb</w>
+      <w>mariadb</w>
     </words>
   </dictionary>
 </component>

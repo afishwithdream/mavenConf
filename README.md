@@ -19,5 +19,6 @@ maven坑有点多..记录一下吧
             <mirrorOf>central</mirrorOf>
         </mirror>
     
- <scope>test</scope> 防止冲突,更改作用域
+ <scope>test</scope> 防止冲突,更改作用域 mysql设置runtime
  IDEA设置,VM option 读取本地仓库-DarchetypeCatalog=internal    
+ 

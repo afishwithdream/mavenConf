@@ -10,7 +10,6 @@ import java.io.IOException;
 @WebServlet(name = "aservlet",urlPatterns = "/aservlet")
 public class Aservlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        doGet(request,response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
