@@ -22,3 +22,8 @@ maven坑有点多..记录一下吧
  <scope>test</scope> 防止冲突,更改作用域 mysql设置runtime
  IDEA设置,VM option 读取本地仓库-DarchetypeCatalog=internal    
  
+ maven引入css和jquery
+
+org.webjars.bower jquery 3.4.1 org.webjars bootstrap 4.3.1 <script src="webjars/jquery/3.4.1/dist/jquery.min.js"></script>
+<script src="script/register.js"></script>
+<link rel="stylesheet" href="webjars/bootstrap/4.3.1/css/bootstrap-reboot.min.css"/>
